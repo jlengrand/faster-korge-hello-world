@@ -3,7 +3,7 @@
 I just started playing around with the (awesome) [Korge](https://korge.org/) Kotlin Game Engine.
 
 One of the things that really disturbed is that when creating a new Hello World project, the compilation only would take almost **2 minutes** before the game could run.
-After some investigations, it looks like all the time is spent in the `KorgeGradlePlugin` (but I am too novice to know why at the moment). 
+After some investigations, it looks like all the time is spent in the [`KorgeGradlePlugin`](https://github.com/korlibs/korge-plugins/tree/master/korge-gradle-plugin) (but I am too novice to know why at the moment). 
 
 Check the result of the scan [here](https://scans.gradle.com/s/bbiqxktq3dhvu).
 

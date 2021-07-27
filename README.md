@@ -1,5 +1,7 @@
 # A (faster) fork from the [korge-hello-world](https://github.com/korlibs/korge-hello-world)?
 
+_EDIT : Seems like it was a temporary issue, and I could not reproduce it any more a couple hours later. Maybe something related to the Maven servers? Ignore the content of that repository_.
+
 I just started playing around with the (awesome) [Korge](https://korge.org/) Kotlin Game Engine.
 
 One of the things that really disturbed is that when creating a new Hello World project, the compilation only would take almost **2 minutes** before the game could run.

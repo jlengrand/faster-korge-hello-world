@@ -7,23 +7,15 @@ After some investigations, it looks like all the time is spent in the [`KorgeGra
 
 Check the result of the scan [here](https://scans.gradle.com/s/bbiqxktq3dhvu).
 
-
 Thanks to the great help from [LeHaine](https://github.com/LeHaine), I could reduce this drastically.
-
 The numbers below are only for reference, but you can try it yourself.
 
-* Clone the [Korge project hello world](https://github.com/korlibs/korge-hello-world), and run `./gradlew runJvm`. 
-  * On my 2017 MBP and my gaming rig, it takes consistently between 1m20s and 2m30s before the template starts.
-* Clone this [project](https://github.com/jlengrand/faster-korge-hello-world) , and run `./gradlew runJvm`.
-  * On my 2017 MBP and my gaming rig, it takes consistently between **5s and 20s**.
-
-
-|Project | Machine| Average time |
---- | --- | ---
-|[Korge project hello world](https://github.com/korlibs/korge-hello-world)|MBP 2017|~1m50s|
-|[Korge project hello world](https://github.com/korlibs/korge-hello-world)|Win 10 i7 16Gb|~1m20s|
-|[Faster korge hello world](https://github.com/jlengrand/faster-korge-hello-world)|MBP 2017| ~20s |
-|[Faster korge hello world](https://github.com/jlengrand/faster-korge-hello-world)|Win 10 i7 16Gb|~5s|
+|Project | Command | Machine| Average time |
+--- | --- | --- | ---
+|[Korge project hello world](https://github.com/korlibs/korge-hello-world)|`./gradlew runJvm`|MBP 2017|~1m50s|
+|[Korge project hello world](https://github.com/korlibs/korge-hello-world)|`./gradlew runJvm`|Win 10 i7 16Gb|~1m20s|
+|[Faster korge hello world](https://github.com/jlengrand/faster-korge-hello-world)|`./gradlew runJvm`|MBP 2017| ~20s |
+|[Faster korge hello world](https://github.com/jlengrand/faster-korge-hello-world)|`./gradlew runJvm`|Win 10 i7 16Gb|~5s|
 
 Thanks again to [LeHaine](https://github.com/LeHaine) (and others on the Discord).
 
